@@ -1,0 +1,12 @@
+1. write a program to take the following input 
+a. gender 
+b. age 
+
+gender is male 
+print you are male 
+or else print you are female 
+
+age 
+if age is > 18 
+print you are adult 
+or else print you are minor 

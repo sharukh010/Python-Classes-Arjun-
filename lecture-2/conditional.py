@@ -32,3 +32,7 @@ to understand how to write conditions we need to learn
 about comparision operators 
 """
 number = int(input("Enter a number: ")) # taking number as input 
+if number %2 == 0: 
+    print("It is even")
+else: 
+    print("It is odd")

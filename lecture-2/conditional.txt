@@ -4,6 +4,6 @@ to our program . depending on the decision we can
 decide which part of the program need to be executed. 
 Types of conditional statements: 
 1. if statement 
-2. elif statment 
+2. elif statment (next class)
 3. else statment 
-4. match statement 
+4. match statement (next class)

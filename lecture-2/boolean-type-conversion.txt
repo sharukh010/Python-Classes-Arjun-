@@ -1,0 +1,9 @@
+Truthy values: 
+1,-1,"True","False"
+falsey values: 
+0,None,""
+
+when you try to convert truthy values to 
+boolean you will get "True" as result 
+when you try to convert falsey values to 
+boolean you will get "False" as result
