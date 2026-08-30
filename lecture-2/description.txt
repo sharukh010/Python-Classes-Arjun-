@@ -1,0 +1,2 @@
+Topic covered: Input,print,foramting input and output,
+type casting ,arithematic operators , data types 
