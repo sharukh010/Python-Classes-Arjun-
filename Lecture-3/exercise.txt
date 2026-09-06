@@ -5,3 +5,11 @@ generate a random number between 1 - 6
 3 -> THREE 
 ... 
 6 -> SIX 
+
+Homework 
+2. Generate a random Date 
+dd/mm/yyyy 
+input constraints: 
+dd : 1 - 28 
+mm : 1 - 12 
+yyyy : 2000 - 2100 # take this input from the user 
