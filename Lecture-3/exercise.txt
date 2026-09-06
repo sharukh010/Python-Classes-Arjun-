@@ -1,0 +1,7 @@
+1. Create a dice application 
+generate a random number between 1 - 6 
+1 -> ONE 
+2 -> TWO 
+3 -> THREE 
+... 
+6 -> SIX 
