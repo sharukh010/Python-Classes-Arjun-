@@ -1,0 +1,12 @@
+1 -> Rock 
+2 -> Paper 
+3 -> Scissors 
+
+Thre are going to two players Program , User 
+Program will automatically choose one option by 
+generating a random number between 1 to 3 
+User will enter the number number base on the number 
+we will choose the option 
+
+- if the user choose any number other than 1-3 
+we will go by default with Rock 

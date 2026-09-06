@@ -69,3 +69,12 @@ A = I need Samosa
     A         NOT A 
     True      False 
     False     True 
+
+Modules: 
+Are collection of python code which include python functions 
+1. Inbuilt : create by python creators 
+ex: math, random etc. 
+2. External Modules: created by third party developers 
+ex: tabulate,numpy etc. 
+
+- if you want to use a module we much import it into our program 
