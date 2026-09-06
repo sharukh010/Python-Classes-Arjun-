@@ -1,0 +1,71 @@
+When we go for a robbery we will be having 
+multiple plans 
+A 
+B 
+C 
+this are the three different plans 
+Approach - 1 (using if-elif-else): 
+- here any one statement gets executed (mutually exclusive)
+You will be starting with Plan-A 
+if Plan-A works out , you will not try remaining plans 
+if Plan-A fails, you check for plan - B 
+if Plan-B works out , you will not go to plan c 
+if Plan-B fails, you check for Plan-c 
+ex : traffic light 
+Approach-2 (if-if-else): 
+- here all the true conditions will get excuted (more than one event)
+if Plan-A workout , you will check the remaining plans 
+the else part will only get executed when the last plan is failed
+
+Where do we actually use the Approach - 2 multiple If statements 
+You are a Policeman , You encountered with three people they are 
+A 
+B 
+C 
+we may have theifs in this three people 
+1. If A is a theif , we need to check the remaining people also 
+because their can be multiple theifs 
+When we can have more than one possibilites we go with multiple if  
+ex: finding if a number is divisible by 2,3,4 
+12 -> divisible by 2, 3, 4 
+there can be some number that are 
+- individually divisible by 2,3,4 
+- that can be combined divisible by (2,3), (3,4), (2,4),(2,3,4)
+
+Logical Operators (OR,XOR,AND,NOT)
+1. OR: 
+A = I need Samosa 
+B = I need Panipuri 
+A or B = I need Samosa or Panipuri 
+OR means any one of them or both of them 
+        A              B            A OR B 
+        True          False         True (satisfaction)
+        False         True          True 
+        False         False         False 
+        True          True          True 
+2. XOR (Exclusive OR)
+XOR means either this or that but not both 
+A = I need Play Station 
+B = I need to donate to the Poor 
+        A              B             A XOR B 
+      True             False         True 
+      False            True          True 
+      False            False         False 
+      True             True          False ( bought playstation and donated it to the poor)
+3. AND 
+A = I need Samosa 
+B = I need Panipuri 
+A and B = I need Samosa and Panipuri 
+AND means both of them 
+       A            B            A AND B 
+      True         False         False 
+      False        True          False 
+      False        False         False 
+      True         True          True 
+
+4. NOT - it is applied on single condition 
+A = I need Samosa 
+
+    A         NOT A 
+    True      False 
+    False     True 
