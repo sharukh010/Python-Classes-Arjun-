@@ -1,0 +1,6 @@
+# Why do we need match statement ? 
+- In previous code which is Rock, Paper and Scissor Game 
+when ever we want to decide the choice based on a number 
+we have written multiple conditions to check the value of the variable 
+Match statment does the same thing when ever you want to execute a piece of code 
+base on a varaible value then we use match statement
