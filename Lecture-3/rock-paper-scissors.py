@@ -7,7 +7,7 @@ if program_number == 1:
 elif program_number == 2:
     program_choice = "Paper"
 elif program_number == 3:
-    program_number = "Scissors"
+    program_choice = "Scissors"
 
 print("""Options: 
 1. Rock 
@@ -29,4 +29,19 @@ print("Choices: ")
 print(f"Program: {program_choice}")
 print(f"User: {user_choice}")
 
+print("Decision: ")
 # TODO : Winner implementation (next class)
+if program_choice == "Rock" and user_choice == "Paper": 
+    print("User is the Winner")
+elif program_choice == "Rock" and user_choice == "Scissors": 
+    print("Program is the Winner")
+elif program_choice == "Paper" and user_choice == "Rock": 
+    print("Program is the Winner")
+elif program_choice == "Paper"and user_choice == "Scissors": 
+    print("User is the Winner")
+elif program_choice == "Scissors" and user_choice == "Rock": 
+    print("User is the Winner")
+elif program_choice == "Scissors" and user_choice == "Paper": 
+    print("Program is the Winner")
+else: # when they make same choice 
+    print("It's a Tie")
