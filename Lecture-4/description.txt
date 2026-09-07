@@ -4,3 +4,13 @@ when ever we want to decide the choice based on a number
 we have written multiple conditions to check the value of the variable 
 Match statment does the same thing when ever you want to execute a piece of code 
 base on a varaible value then we use match statement
+
+text to number 
+
+one two three -> 123 
+one one one eight -> 1118 
+
+# the below is called as problem decomposition 
+firsth priority 
+convert single word to number 
+then we just have to repeat the same process for all the words 
