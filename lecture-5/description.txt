@@ -1,0 +1,5 @@
+we will take numbers input 
+and we are going to print the number in text format 
+ex: 
+123 
+o/p: one two three 
