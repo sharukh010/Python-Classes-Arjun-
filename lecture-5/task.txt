@@ -1,0 +1,15 @@
+write a program which converts lower case text to uppercase text 
+i/p: 
+abc 
+o/p: 
+ABC 
+
+i/p: 
+Abc 
+o/p: 
+ABC 
+
+i/p: 
+abc123 
+o/p: 
+ABC123 
