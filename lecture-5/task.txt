@@ -13,3 +13,15 @@ i/p:
 abc123 
 o/p: 
 ABC123 
+
+write a program which can convert words to emoji's 
+fixed words: 
+smile - 😊 
+sad - 🥲
+angry - 😡
+cry - 😭
+surprise - 😮
+ex: 
+smile smile cry 
+o/p: 
+😊😊😭
