@@ -19,3 +19,9 @@ let's say you want to acess 'arj'
 name[0],name[1],name[2]
 this can be simplified by using string slicing [start:end]
 name[0:3] -> arj  
+we use heap memory to store the variable values 
+- in heap memory you cannot modify the data 
+- in heap memory you cannot have duplicate values 
+becuase of this you can carefully use the memory without any wastage 
+because of immutablility nature the shared memory will not be effected 
+only the updated memory will be changed 
