@@ -1,0 +1,21 @@
+name = "arjun"
+in string we can use something called as index 
+this indexes starts from 0 to length-1 
+for "arjun" the indexes will be from 0 to 4 
+a r j u n 
+0 1 2 3 4 
+-5 
+  -4 
+    -3 
+      -2 
+        -1 
+negative indexes -> the position of the element from the end 
+-5 - fifth element from the last 
+index represent how many characters you need to skip to reach to 
+that particular character 
+name[index] 
+indexes will let you acess only one character at a time 
+let's say you want to acess 'arj' 
+name[0],name[1],name[2]
+this can be simplified by using string slicing [start:end]
+name[0:3] -> arj  
