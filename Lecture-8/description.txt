@@ -1,0 +1,6 @@
+create a program which has a list 
+that stores you family members ages 
+1) min age 
+2) max age 
+3) sum of all the ages 
+4) sort the ages 
