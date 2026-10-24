@@ -1,3 +1,4 @@
+# Product Calculator 
 You will be given two numbers `num1` and `num2` and you need to find the product of two numbers 
 without using `*` multiplication operations. Solve it using `while` loop.
 
