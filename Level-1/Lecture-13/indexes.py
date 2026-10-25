@@ -11,5 +11,12 @@ ages = [12,13,25,32]
 # for index in range(length): 
 #     print(ages[index])
 # accessing elements one by one without using indexes 
-for age in ages:
-    print(age) 
+# for age in ages:
+#     print(age) 
+# using list slicing you can access multiple elements 
+# print(ages[1:3])
+# print(ages[:4])# start = 0 
+# print(ages[1:])# end = 5  
+# print(ages[:])
+# print(ages[::2])# step will tell you what to add to current index to get the next element index
+print(ages[::-1])
