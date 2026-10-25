@@ -1,0 +1,4 @@
+1) Doc Strings 
+2) Type Hints 
+3) Functions 
+4) List functions
