@@ -1,0 +1,22 @@
+Indexes are important part of list 
+they are used to access elements by their positions 
+indexes can be considered as a number which represents the number of 
+elements to be skipped to reach a particular element in a list 
+there are two types of indexes in list 
+1) Positive indexes (0 to length-1)
+- access the elements from left to right 
+2) Negative indexing (-1 to -length)
+- they usually represent the position element from the last 
+- ex: -1 means first element from the last 
+- -2 means second element from the last 
+- accessing the elements from right to left 
+
+[ 1 , 2 , 3 , 4 , 5 ]
+  0   1   2   3   4   -> positive indexes
+ -5  -4  -3  -2  -1   -> negative indexes 
+
+ important functions in list: 
+ 1) len() -> this is used to find the length of the list 
+ 2) sum() -> this is used to find the sum of the elements in the list 
+ 3) max() -> this is used to find the maximum number from the list 
+ 4) min() -> this is used to find the minimum element from the list  
