@@ -27,6 +27,7 @@ Create the following functions:
 - Ask the user to enter a book ID.
 - Validate whether the entered ID is valid.
 - Add the selected book to `borrowed_books`.
+- Remove the selected book from `books`.
 - Display an appropriate success or error message.
 
 3\. `return_book()`
@@ -34,7 +35,8 @@ Create the following functions:
 - Display all borrowed books.
 - Ask the user to enter the book ID.
 - Validate the entered ID.
-- Remove the returned book from the borrowed_books 
+- Move the selected book from `borrowed_books` to `returned_books`.
+- Add the returned book back to the available `books` list.
 
 4\. `display_borrowed_books()`
 
@@ -46,6 +48,12 @@ Create the following functions:
 - Display all returned books.
 - If there are no returned books, display `"No books returned"`.
 
+6\. `search_book()`
+
+- Ask the user to enter a book name.
+- Search for the book in the available books list.
+- Display whether the book is available or currently borrowed.
+
 ### Menu
 
 ```
@@ -56,7 +64,8 @@ Create the following functions:
 3. Return a Book
 4. Display Borrowed Books
 5. Display Returned Books
-6. Exit
+6. Search for a Book
+7. Exit
 
 Enter your choice:
 ```
