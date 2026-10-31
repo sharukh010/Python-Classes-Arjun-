@@ -29,5 +29,11 @@ ages = [12,3,45,77,28,77]
 # extend - it takes another list as input and adds it at the end of current list 
 # this is like append which can add multiple values 
 
-ages.extend([1,2,3,4,5])
-print(ages)
+# ages.extend([1,2,3,4,5])
+# print(ages)
+
+# borrowed_books = [2,3,4]
+# # use the index function to the index of the book in borrowed list 
+# # and then pop it from the list 
+# ages.pop(3)
+# print(ages)
