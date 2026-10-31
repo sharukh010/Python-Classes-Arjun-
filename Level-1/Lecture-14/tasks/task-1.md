@@ -48,12 +48,6 @@ Create the following functions:
 - Display all returned books.
 - If there are no returned books, display `"No books returned"`.
 
-6\. `search_book()`
-
-- Ask the user to enter a book name.
-- Search for the book in the available books list.
-- Display whether the book is available or currently borrowed.
-
 ### Menu
 
 ```
@@ -64,8 +58,7 @@ Create the following functions:
 3. Return a Book
 4. Display Borrowed Books
 5. Display Returned Books
-6. Search for a Book
-7. Exit
+6. Exit
 
 Enter your choice:
 ```
