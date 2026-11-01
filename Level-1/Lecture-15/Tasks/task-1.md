@@ -12,6 +12,7 @@ Define the following methods use proper type hints and doc string
 4. `rectangle_perimter(length,bread)`
 - `length`,`breadth` can be either int or float 
 - it returns perimter which can be either int or float
+
 Sample Code: 
 ```python
 print(square_area(5))
