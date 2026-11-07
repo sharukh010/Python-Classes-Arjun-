@@ -65,12 +65,5 @@ Discount: ₹47
 Final Bill: ₹423
 ```
 
-### Challenge Questions
-
-1. What happens if the customer provides only the name?
-2. What happens if the customer provides 5 toppings?
-3. Can you modify the function to accept a default pizza size of `"Small"`?
-4. What happens if the customer enters an invalid pizza size?
-5. Can you add a new parameter `delivery_charge=40` and include it in the final bill?
 
 Important: Try solving the problem without using lists to collect the toppings manually. Use `*args` to handle them.
