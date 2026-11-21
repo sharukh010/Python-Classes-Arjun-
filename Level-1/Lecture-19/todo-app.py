@@ -10,30 +10,43 @@ def display(todo: dict):
     for key in todo: 
         print(f"{key.title()}: {todo[key]}")
 
+def get_todos_by_duration(asc: bool): 
+    result = list(todos.values())
+    # sort based on duration
+    # by default it will sort in ascending order 
+    # if you set reverse = True it will do it in descending order
+    result.sort(key=lambda x: x["duration"],reverse= not asc)
+    return result 
+
 todos = {
     1: {
         "id": 1,
         "title": "Do python L-18 HW",
+        "duration": 45,
         "completed": False
     }, 
     2: {
         "id": 2,
         "title": "Do math HW",
+        "duration": 15,
         "completed": False
     }, 
     3: {
         "id": 3,
         "title": "Do english HW",
+        "duration": 30,
         "completed": True
     }, 
     4: {
         "id": 4,
         "title": "Play outside",
+        "duration": 60,
         "completed": True
     }, 
     5: {
         "id": 5,
         "title": "Wash dishes",
+        "duration": 180,
         "completed": False
     }, 
 }
@@ -46,9 +59,11 @@ while True:
         case 1: 
             print("Adding a Todo: ")
             title = input("Title: ")
+            duration = input("Duration (in minutes): ")
             todo = {
                 "id": next_id,
                 "title": title,
+                "duration": duration,
                 "completed": False
             }
             todos[next_id] = todo.copy()
@@ -58,14 +73,22 @@ while True:
             print("Displaying all Todos:")
             print("1.Pending Todos")
             print("2.Completed Todos")
+            print("3.Duration")
             sub_choice = int(input("Enter your choice: "))
             completed = None 
+            result = list(todos.values())
             if sub_choice == 1: 
                 completed = False 
-            else: 
-                completed = True 
-
-            for todo in todos.values():
+            elif sub_choice == 2: 
+                completed = True
+            elif sub_choice == 3: 
+                completed = False  
+                print("1.Ascending order")
+                print("2.Descending order") 
+                order_choice = int(input("Enter your choice: "))
+                asc = (order_choice == 1)
+                result = get_todos_by_duration(asc)
+            for todo in result:
                 if todo["completed"] == completed: 
                     display(todo) 
                     print("-"*20)
