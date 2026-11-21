@@ -1,0 +1,13 @@
+1. add a todo 
+Enter a title: Do Python hw 
+2. display all the todos 
+3. display single todo 
+4. mark a todo as completed 
+5. delete completed todo
+6. exit 
+
+id: {
+    "id": todo id , 
+    "title": title, 
+    "completed": True/False,
+}
