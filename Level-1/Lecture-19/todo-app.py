@@ -56,9 +56,19 @@ while True:
             print(f"Todo is added successfully")
         case 2: 
             print("Displaying all Todos:")
+            print("1.Pending Todos")
+            print("2.Completed Todos")
+            sub_choice = int(input("Enter your choice: "))
+            completed = None 
+            if sub_choice == 1: 
+                completed = False 
+            else: 
+                completed = True 
+
             for todo in todos.values():
-                display(todo) 
-                print("-"*20)
+                if todo["completed"] == completed: 
+                    display(todo) 
+                    print("-"*20)
         case 3: 
             print("Displaying single Todo:")
             todo_id = int(input("ID: "))
@@ -68,8 +78,21 @@ while True:
                 print("Todo not found")
         case 4: 
             print("Mark todo as completed: ")
+            todo_id = int(input("ID: "))
+            if todo_id in todos: 
+                todo = todos[todo_id]
+                todo["completed"] = True 
+                print("Todo marked as completed...")
+            else: 
+                print("Todo not found")
         case 5: 
             print("Deleting completed todos: ")
+            # it will get you all the ids completed todos 
+            completed_ids = [todo_id for todo_id in todos if todos[todo_id]["completed"]]
+            count = len(completed_ids)
+            for todo_id in completed_ids: 
+                del todos[todo_id]
+            print(f"{count} Todos were deleted...")
         case 6: 
             print("Exiting..")
             break 
