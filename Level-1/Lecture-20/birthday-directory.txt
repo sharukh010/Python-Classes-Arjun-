@@ -1,0 +1,70 @@
+You are going to create a birthday directory application 
+where you store the details of a person dob 
+
+options: 
+1. add a record 
+2. display all the records 
+3. get DOB 
+4. DOB by month 
+5. exit 
+
+birthdays = {}
+- key: name 
+- value: {
+    name: value , 
+    date: value, 
+    month: value, 
+    year: value 
+}
+
+1. Add a record 
+Name: Arjun 
+date: 11 
+month: 10
+year: 2012 
+
+record created succesfully 
+
+2. display all the records 
+
+Name: Arjun 
+date: 11 
+month: 10
+year: 2012 
+==============
+Name: Arjun 
+date: 11 
+month: 10
+year: 2012 
+==============
+
+3. get DOB 
+input: 
+Enter a name: Arjun 
+
+response: 
+Date of Birth: 
+Day: 11 
+Month: 10 
+Year: 2012 
+
+4. DOB by month 
+input: 
+Enter a month number (1-12): 4 
+
+Name: Arjun 
+date: 11 
+month: 4 
+year: 2012
+=============
+Name: Alex  
+date: 11 
+month: 4
+year: 2012  
+
+5. Eixt 
+Exiting.. 
+
+
+Note: 
+1. you need to check the month if it is valid or not 
